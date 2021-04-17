@@ -1,0 +1,14 @@
+{
+  "name": "shootingsapi",
+  "version": "1.0.0",
+  "description": "api of all police shootings since 2015",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
