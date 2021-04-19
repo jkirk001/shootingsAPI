@@ -11,7 +11,7 @@ app.use(function (req, res, next) {
   next();
 });
 
-app.get("/", (req, res) => {
+app.get("/api", (req, res) => {
   fs.readFile("test.txt", "UTF8", (error, success) => {
     if (error) {
       console.log(error);
